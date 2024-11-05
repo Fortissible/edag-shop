@@ -1,0 +1,13 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<VBox spacing="10" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.controller.ProductController">
+    <TableView fx:id="productTable">
+        <columns>
+            <TableColumn fx:id="nameColumn" text="Name" />
+            <TableColumn fx:id="priceColumn" text="Price" />
+            <TableColumn fx:id="descriptionColumn" text="Description" />
+        </columns>
+    </TableView>
+</VBox>
+
